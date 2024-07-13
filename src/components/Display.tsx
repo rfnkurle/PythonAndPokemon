@@ -1,6 +1,7 @@
 
 
 function Display() {
+   
     const pokemons = [
         {name: 'Pikachu', power: 'poison', photoUrl: 'https://upload.wikimedia.org/wikipedia/en/a/a6/Pok%C3%A9mon_Pikachu_art.png'},
         {name: 'Charizard', power: 'fire', photoUrl: 'https://assets.pokemon.com/assets/cms2/img/pokedex/full//006.png'},
