@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "corsheaders",
+    "pokemon",
 ]
 
 MIDDLEWARE = [
@@ -121,3 +123,5 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+#Cors settings
+CORS_ALLOWED_ORIGINS = ["http://localhost:5173"]  # Make sure the port number matches the one you're using for the React app.
